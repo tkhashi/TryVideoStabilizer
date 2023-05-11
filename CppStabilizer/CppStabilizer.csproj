@@ -8,6 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\demo.mp4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\demo.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="OpenCvSharp4.Windows" Version="4.7.0.20230115" />
   </ItemGroup>
 
